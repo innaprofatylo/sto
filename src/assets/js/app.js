@@ -16,3 +16,18 @@ import './lib/foundation-explicit-pieces';
 import './lib/slick.min.js';
 
 $(document).foundation();
+
+let sliderSpec = $('.ba-slider-spec');
+
+sliderSpec.slick({
+	rows: 1,
+	slidesPerRow: 1,
+	dots: true,
+	autoplay: true,
+	autoplaySpeed: 1500,
+	fade: true,
+	arrows: false,
+	// prevArrow: '[data-spec-prev]',
+	// nextArrow: '[data-spec-next]',
+	
+})

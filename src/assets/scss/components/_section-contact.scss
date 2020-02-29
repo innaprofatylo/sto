@@ -1,0 +1,35 @@
+.ba-contact{
+	padding: 50px 0 30px;
+	background: #ccc url(../img/bg2.jpg);
+	background-size: cover;
+}
+.ba-img{
+	margin-bottom: 5px;
+	
+	@include breakpoint(medium){
+		margin-right: 10px;
+	}
+}
+.ba-data{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 16px;
+	font-weight: 700;
+	
+	@include breakpoint(medium){
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	p{
+		margin: 0;
+	}
+	&__call{
+		margin: 0;
+		padding: 0;
+		li{
+			list-style: none;
+		}
+	}
+}

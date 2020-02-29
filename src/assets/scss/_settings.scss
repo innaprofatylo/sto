@@ -65,24 +65,24 @@
 // 1. Global
 // ---------
 
-$global-font-size: 16px; 
+$global-font-size: 18px; 
 $global-width: 1200px;
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #ff5912,
+  primary: #ec2709,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
-  alert: #cc4b37,
+  alert: #ff5912,
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #34404b;
 $white: #fefefe;
-$body-background: #f4f6f8;
+$body-background: #fffff;
 $body-font-color: #495662;
-$body-font-family: 'Harmonia Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Lato', sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -140,18 +140,18 @@ $header-lineheight: 1.2;
 $header-margin-bottom: 20px;
 $header-styles: (
   small: (
-    'h1': ('font-size': 24),
-    'h2': ('font-size': 20),
-    'h3': ('font-size': 19),
-    'h4': ('font-size': 18),
+    'h1': ('font-size': 36),
+    'h2': ('font-size': 32),
+    'h3': ('font-size': 28),
+    'h4': ('font-size': 24),
     'h5': ('font-size': 17),
     'h6': ('font-size': 16),
   ),
   medium: (
     'h1': ('font-size': 52),
-    'h2': ('font-size': 36),
-    'h3': ('font-size': 28),
-    'h4': ('font-size': 18),
+    'h2': ('font-size': 42),
+    'h3': ('font-size': 34),
+    'h4': ('font-size': 34),
     'h5': ('font-size': 16),
     'h6': ('font-size': 16),
   ),
@@ -169,7 +169,7 @@ $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
-$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-color-hover: scale-color($anchor-color, $lightness: -24%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
@@ -280,12 +280,12 @@ $breadcrumbs-item-separator-color: $medium-gray;
 // ----------
 
 $button-font-family: inherit;
-$button-padding: 17.4px 29px ;
+$button-padding: 17.4px 29px;
 $button-margin: 0;
-$button-fill: solid;
+$button-fill: $primary-color;
 $button-background: $primary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
-$button-color: $white;
+$button-color: $primary-color;
 $button-color-alt: $black;
 $button-radius: $global-radius;
 $button-hollow-border-width: 1px;
@@ -503,7 +503,7 @@ $offcanvas-vertical-sizes: (
 $offcanvas-background: $light-gray;
 $offcanvas-shadow: 0 0 10px rgba($black, 0.7);
 $offcanvas-inner-shadow-size: 20px;
-$offcanvas-inner-shadow-color: rgba($black, 0.25);
+$offcanvas-inner-shadow-color: rgba($primary-color, 0.25);
 $offcanvas-overlay-zindex: 11;
 $offcanvas-push-zindex: 12;
 $offcanvas-overlap-zindex: 13;

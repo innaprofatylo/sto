@@ -1,6 +1,27 @@
 .ba-footer{
-    
+	padding: 20px 0;
+	background-image: linear-gradient(to bottom, rgb(107, 105, 105), transparent);
 }
-.ba-copyright{
-    
+
+.ba-footer-list{
+	
+	@include breakpoint(medium){
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	
+
+
+
+li{
+	list-style: none;
+	font-size: 24px;
+	font-weight: 700;
+}
+&__1, &__2{
+	li{
+		list-style: none;
+	}
+}
 }

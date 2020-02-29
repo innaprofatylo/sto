@@ -1,21 +1,36 @@
-<header class="ba-header-wrap">    
-    <div class="ba-header-header">
-        <div class="row align-middle ">
-            <div class="column">
-                <a href="/">
-                    <img src="{{root}}assets/img/logo.png" alt="Logo">
-                </a>
-            </div>
-            <!-- /.column -->
-            <div class="column shrink">
-                <button class="menu-icon dark hide-for-medium" type="button" data-open="offCanvas" aria-label="Show menu">
-                        </button>
-                <ul class="menu ba-main-menu show-for-medium">
-                    <li {{#ifpage 'index'}} class="active" {{/ifpage}}><a href="index.html">Home</a></li>
-                </ul>
-            </div>
-            <!-- /.column -->
-        </div>
-        <!-- /.row -->
-    </div>
+<header class="ba-header-wrap">
+	<div class="row align-middle ">
+		<div class="column">
+			<a href="/">
+				<img src="{{root}}assets/img/logo.png" alt="Logo">
+			</a>
+		</div>
+		<!-- /.column -->
+		<div class="column ba-nav medium-8">
+			<button class="menu-icon hide-for-medium" type="button" data-open="offCanvas" aria-label="Show menu">
+			</button>
+			<ul class="menu ba-main-menu show-for-medium" data-smooth-scroll>
+				<li><a href="index.html">Головна</a></li>
+				<li><a href="#services">Послуги</a></li>
+				<li><a href="#about">Про нас</a></li>
+				<li><a href="#contact">Контакти</a></li>
+			</ul>
+		</div>
+		<!-- /.column -->
+		<div class="column large-3 show-for-large">
+			<ul class="ba-contacts">
+				<li><a class="ba-call" href="tel:+380677319100">+38-067-731-91-00</a></li>
+				<li><a class="ba-call" href="tel:+380951375164">+38-095-137-51-64</a></li>
+				<!-- <li class="ba-adress">м. Полтава</li>
+				<li class="ba-adress">вул. Європейська, 150Б</li> -->
+			</ul>
+		</div>
+		<!-- /.column -->
+		<div class="column hide-for-large">
+<img src="assets/img/logo2.png" alt="logo2">
+		</div>
+		<!-- /.column -->
+	</div>
+	<!-- /.row -->
+
 </header>
