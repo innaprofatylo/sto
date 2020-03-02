@@ -10,7 +10,8 @@
       font-size: 20px;
       padding: 20px;
       color: $white;
-      text-transform: uppercase;
+		text-transform: uppercase;
+		outline: none;
       &:hover {
         text-transform: uppercase;
         text-decoration: underline;
