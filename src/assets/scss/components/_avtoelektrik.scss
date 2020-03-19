@@ -1,0 +1,23 @@
+.ba-avtoelektrik{
+	background: #ccc url(../img/avtoelektrika.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 90vh;
+}
+.ba-text{
+	padding: 10px;
+	background-color: $light-gray;
+	color: $black;
+	border: 5px solid $medium-gray;
+	width: 50%;
+	margin: 15% 5% 5%;
+	text-align: center;
+	min-height: 60%;
+	min-width: 90%;
+
+	@include breakpoint(medium){
+		margin: 10% 25% 0;
+		min-width: 50%;
+		padding: 20px;
+	}
+}
