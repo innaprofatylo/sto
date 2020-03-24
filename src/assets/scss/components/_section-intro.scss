@@ -4,8 +4,8 @@
 	background-attachment: fixed;
 	background-color: #000;
 	width: 100vw;
-	min-height: 100vh;
-	padding: 130px 0;
+	height: 100vh;
+	padding: 10px 50;
 	color: $medium-gray;
 	
 	@include breakpoint(1090px){
@@ -35,7 +35,7 @@
 			width: 100%;
 			height: 100%;
 	  
-			background-color: rgba(0, 0, 0, .6);
+			background-color: rgba(0, 0, 0, .4);
 	  
 			position: absolute;
 			top: 0;
@@ -45,7 +45,7 @@
   }
   
   .intro__content {
-		
+		padding-top: 130px;
 		position: absolute;
 		top: 0;
 		left: 0;
