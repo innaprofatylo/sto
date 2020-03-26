@@ -58,12 +58,19 @@
 	 }
 		position: relative;
 		z-index: 0;
-		// padding-bottom: 56.25%;
 		min-width: 100%;
 		min-height: 100%;
 
   }
-  
+  @supports (object-fit: cover) {
+	.video > video {
+		 top: 20px;
+		 left: 0;
+		 width: 100%;
+		 height: 100%;
+		 object-fit: cover;
+	}
+}
   .video__media {
 		width: 100%;
 		height: auto;
